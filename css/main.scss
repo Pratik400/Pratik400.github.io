@@ -183,8 +183,8 @@
 /////   Theme colors   //////////////////////////////////////
 ////////////////////////////////////////////////////////////
 $colors:(background: #ffffff,
-    main: #2fbdff,
-    main-dark: #102731,
+    main: #0090d3,
+    main-dark: #0173a8,
     yellow: #ffff00,
     yellow-2: #fbc02d,
     scarlet:#ff2a00,
@@ -3786,19 +3786,22 @@ ul#productGallery {
 
 
 .HelpCenter-modal {
+    background-color: color(gray-55);
     .nav-tabs {
-        .nav-item a {
+        .nav-item{ 
+            margin: 0 8px;
+            a {
             background: #fff;
-            color: #0094d9;
+            color: color(main);
             font-weight: 600;
             font-size: 15px;
             border-radius: 5px;
 
             &.active {
                 color: #fff;
-                background: #0094d9;
+                background: color(main);
             }
-        }
+        }}
     }
 
     .tab-content {
