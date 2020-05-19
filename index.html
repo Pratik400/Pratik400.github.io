@@ -3383,7 +3383,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="mb-3">
@@ -3514,8 +3513,8 @@
                                     <div class="product-top-btns">
 
                                         <div class="d-flex flex-wrap align-items-center">
-                                            <div class="l-price">
-                                                <span data-toggle="modal" data-target="#GetLatestPrice">Get Latest
+                                            <div class="l-price" data-toggle="modal" data-target="#GetLatestPrice">
+                                                <span >Get Latest
                                                     Price</span>
                                             </div>
 
@@ -4028,7 +4027,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="autoconnect" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content connectDirectly">
                 <div class="modal-header connectDirectly-title">
@@ -4048,8 +4047,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!-- Four Digit modal -->
     <div class="modal fade" id="fourDigitOTPModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -4222,7 +4219,7 @@
         $(document).ready(function () {
 
             setTimeout(function () {
-                $('#exampleModal').modal();
+                $('#autoconnect').modal();
             }, 2000);
 
             $(".bannerSlider").owlCarousel({

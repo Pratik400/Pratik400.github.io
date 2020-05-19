@@ -3791,13 +3791,14 @@ ul#productGallery {
                 &.active {
                     color: #fff;
                     background: color(main);
-                    &:hover{
+
+                    &:hover {
                         color: #fff;
                         background: color(main);
                     }
                 }
 
-                &:hover{
+                &:hover {
                     color: color(main-dark);
                 }
             }
