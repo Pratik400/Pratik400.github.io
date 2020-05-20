@@ -35,7 +35,7 @@ $(document).ready(function () {
     $(document).scroll(function () {
 
         var y = $(document).scrollTop(), //get page y value 
-            mainheader = $(".main-header"); // your div id
+            mainheader = $(".bnw-main-header"); // your div id
         // console.log("desktop   " + y);
 
         if (y >= 50) {
@@ -79,7 +79,7 @@ $(document).ready(function () {
         $(".tab-content-col .tab-content .tab-pane").siblings().removeClass('active show');
         $(".tabs-col .nav-pills li a").removeClass('active show');
     }
-    $('.main-header').on('mouseenter mouseleave', '.dropdown', toggleDropdown).on('click', '.dropdown-menu a', toggleDropdown);
+    $('.bnw-main-header').on('mouseenter mouseleave', '.dropdown', toggleDropdown).on('click', '.dropdown-menu a', toggleDropdown);
     $('#categoryNavDropdown').on('mouseenter mouseleave', '.dropdown', toggleDropdown).on('click', '.dropdown-menu a', toggleDropdown)
     $('.category-tab-dropdwn').on('mouseenter click', anyNavContent).on('mouseleave', resetNavContent);
     // });
